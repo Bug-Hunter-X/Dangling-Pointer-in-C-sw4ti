@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; *ptr = 20; free(ptr); // Avoid freeing a pointer to the stack. printf("%d", x); return 0;} 
