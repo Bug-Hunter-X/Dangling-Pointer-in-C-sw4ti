@@ -1,0 +1,1 @@
+This repository demonstrates a common error in C programming: the use of dangling pointers. A dangling pointer is a pointer that points to memory that has been freed or is no longer valid. Accessing a dangling pointer can lead to unexpected behavior, crashes, or security vulnerabilities. This example shows how a dangling pointer can arise and how to avoid it.
